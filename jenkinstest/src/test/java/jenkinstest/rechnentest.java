@@ -13,6 +13,10 @@ public class rechnentest {
 		int result = rechner.rechnen(10, 89);
 		
 		assertEquals(99, result);
+		
+		result = rechner.rechnen(5, 79);
+		
+		assertEquals(89, result);
 	}
 
 }
