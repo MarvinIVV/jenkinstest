@@ -16,7 +16,7 @@ public class RechnenTest {
 		
 		result = rechner.rechnen(5, 79);
 		
-		assertEquals(89, result);
+		assertEquals(84, result);
 	}
 
 }
